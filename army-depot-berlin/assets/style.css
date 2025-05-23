@@ -55,7 +55,7 @@ body {
 .site-header {
   width: 100%;
   background-color: #999878;
-  padding: 8px; /* Reduced from 15px to 8px */
+  padding: 10px;
   box-sizing: border-box;
   text-align: center;
   background: url("/assets/images/bg.svg") repeat;
@@ -102,7 +102,7 @@ body {
    ========================================================================== */
 .site-footer {
   /* width: 100%; */
-  padding: 15px;
+  padding: 10px;
   box-sizing: border-box;
   margin-top: auto;
   text-align: center;
@@ -112,12 +112,11 @@ body {
 
 .footer-content {
   display: flex;
-  flex-direction: column;
   gap: 10px;
 }
 
 .copyright {
-  font-size: 0.9em;
+  font-size: 0.8em;
 }
 
 .footer-links a {
@@ -149,7 +148,6 @@ body {
   font-style: italic;
   margin-top: 0;
   margin-bottom: 20px;
-  color: #d3d2c3;
 }
 
 .highlight {
