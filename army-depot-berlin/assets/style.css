@@ -1,3 +1,10 @@
+/* ==========================================================================
+   ARMY DEPOT BERLIN - MAIN STYLESHEET
+   ========================================================================== */
+
+/* ==========================================================================
+   BASE STYLES
+   ========================================================================== */
 body {
   margin: 0;
   font-family: 'Times New Roman', Times, serif;
@@ -10,7 +17,11 @@ body {
   min-height: 100vh;
 }
 
-/* Wrapper to contain and center the entire site */
+/* ==========================================================================
+   LAYOUT COMPONENTS
+   ========================================================================== */
+
+/* Main container for the entire site */
 .site-container {
   width: 100%;
   max-width: 1200px;
@@ -21,6 +32,7 @@ body {
   min-height: 100vh;
 }
 
+/* Wrapper for the main content */
 .content-wrapper {
   flex: 1;
   display: flex;
@@ -28,7 +40,18 @@ body {
   background-color: #999878;
 }
 
-/* Header styles */
+/* Main content area */
+.main {
+  padding: 20px;
+  flex-grow: 1;
+  max-width: 100%;
+  box-sizing: border-box;
+  border: 3px groove #6e6e6e;
+}
+
+/* ==========================================================================
+   HEADER STYLES
+   ========================================================================== */
 .site-header {
   width: 100%;
   background-color: #999878;
@@ -45,6 +68,9 @@ body {
   max-height: 100px; /* Reduced from 100px to 70px */
 }
 
+/* ==========================================================================
+   SIDEBAR STYLES
+   ========================================================================== */
 .sidebar {
   width: 100%;
   /* background-color: #999878; */
@@ -54,6 +80,7 @@ body {
   background: url("/assets/images/bg.svg") repeat;
 }
 
+/* Sidebar navigation links */
 .sidebar a {
   display: block;
   margin: 10px 0;
@@ -70,124 +97,9 @@ body {
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3); /* Stronger shadow on hover */
 }
 
-.main {
-  padding: 20px;
-  flex-grow: 1;
-  max-width: 100%;
-  box-sizing: border-box;
-  border: 3px groove #6e6e6e;
-}
-
-.title {
-  font-size: 1.8em;
-  color: #660000;
-  font-weight: bold;
-}
-
-.post-title {
-  margin-bottom: 5px;
-}
-
-.post-date {
-  font-size: 0.9em;
-  font-style: italic;
-  margin-top: 0;
-  margin-bottom: 20px;
-  color: #d3d2c3;
-}
-
-.highlight {
-  color: darkred;
-  font-weight: bold;
-}
-
-.contact-box {
-  background-color: #e2e2d1;
-  padding: 10px;
-  margin-top: 20px;
-  width: 100%;
-  box-sizing: border-box;
-}
-
-.image-section {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
-  margin-top: 20px;
-}
-
-.image-section img {
-  width: 100%;
-  max-width: 250px;
-  border: 3px solid #a0a090;
-}
-
-.logo {
-  width: 100%;
-  max-width: 200px;
-  margin: 0 auto;
-}
-
-h2.orange-blink {
-  background-color: #ffa200;
-  font-weight: bolder;
-  font-style: italic;
-  padding: 10px;
-  margin: 15px 0;
-  animation: orangeGreen 2s steps(1, end) infinite;
-  display: inline-block;
-}
-
-@keyframes orangeGreen {
-  0%, 49% {
-    color: black;
-  }
-  50%, 100% {
-    color: #6da36a;
-  }
-}
-
-@media (min-width: 768px) {
-  .site-container {
-    flex-direction: row;
-    min-height: 100vh;
-  }
-  
-  body {
-    flex-direction: row;
-  }
-  
-  .content-wrapper {
-    flex: 1;
-    max-width: calc(100% - 250px);
-  }
-  
-  .sidebar {
-    width: 230px;
-    min-height: 100vh; /* Use viewport height for the sidebar */
-    height: auto;
-    position: sticky;
-    top: 0;
-  }
-  
-  .main {
-    margin-left: 0;
-    flex-grow: 1;
-  }
-}
-
-/* Add responsive padding on very large screens */
-@media (min-width: 1400px) {
-  body {
-    padding: 0 20px;
-  }
-
-  .site-container {
-    max-width: 1200px;
-  }
-}
-
-/* Footer styles */
+/* ==========================================================================
+   FOOTER STYLES
+   ========================================================================== */
 .site-footer {
   /* width: 100%; */
   padding: 15px;
@@ -219,10 +131,132 @@ h2.orange-blink {
   color: #660000;
 }
 
+/* ==========================================================================
+   TYPOGRAPHY ELEMENTS
+   ========================================================================== */
+.title {
+  font-size: 1.8em;
+  color: #660000;
+  font-weight: bold;
+}
+
+.post-title {
+  margin-bottom: 5px;
+}
+
+.post-date {
+  font-size: 0.9em;
+  font-style: italic;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #d3d2c3;
+}
+
+.highlight {
+  color: darkred;
+  font-weight: bold;
+}
+
+/* ==========================================================================
+   CONTENT MODULES
+   ========================================================================== */
+/* Contact information box */
+.contact-box {
+  background-color: #e2e2d1;
+  padding: 10px;
+  margin-top: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Image gallery section */
+.image-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.image-section img {
+  width: 100%;
+  max-width: 250px;
+  border: 3px solid #a0a090;
+}
+
+/* Logo styling */
+.logo {
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+/* Special heading with animation effect */
+h2.orange-blink {
+  background-color: #ffa200;
+  font-weight: bolder;
+  font-style: italic;
+  padding: 10px;
+  margin: 15px 0;
+  animation: orangeGreen 2s steps(1, end) infinite;
+  display: inline-block;
+}
+
+/* Animation for blinking text effect */
+@keyframes orangeGreen {
+  0%, 49% {
+    color: black;
+  }
+  50%, 100% {
+    color: #6da36a;
+  }
+}
+
+/* ==========================================================================
+   RESPONSIVE DESIGN
+   ========================================================================== */
+/* Tablet and desktop styles */
 @media (min-width: 768px) {
+  .site-container {
+    flex-direction: row;
+    min-height: 100vh;
+  }
+  
+  body {
+    flex-direction: row;
+  }
+  
+  .content-wrapper {
+    flex: 1;
+    max-width: calc(100% - 250px);
+  }
+  
+  .sidebar {
+    width: 230px;
+    min-height: 100vh; /* Use viewport height for the sidebar */
+    height: auto;
+    position: sticky;
+    top: 0;
+  }
+  
+  .main {
+    margin-left: 0;
+    flex-grow: 1;
+  }
+  
   .footer-content {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+  }
+}
+
+/* Large desktop styles */
+@media (min-width: 1400px) {
+  body {
+    padding: 0 20px;
+  }
+
+  .site-container {
+    max-width: 1200px;
   }
 }
