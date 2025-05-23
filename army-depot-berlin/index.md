@@ -33,7 +33,7 @@ Mo.-Mi.: 10:00 - 18:30 Uhr
 Do.-Fr.: 10:00 - 19:00 Uhr  
 Sa.: 10:00 - 16:00 Uhr
 
-## Neuigkeiten!
+<h2 class="orange-blink">Neuigkeiten!</h2>
 
 ---
 
