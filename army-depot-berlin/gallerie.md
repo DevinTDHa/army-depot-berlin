@@ -14,7 +14,7 @@ title: Army Depot Berlin - Gallerie
     <p>Wir verwenden Google Maps, um Ihnen einen virtuellen Rundgang anzubieten. Durch Klicken auf "Akzeptieren" stimmen Sie der Datenverarbeitung durch Google zu.</p>
     <button onclick="acceptGDPR()">Akzeptieren</button>
     <noscript>
-        <p class="warning">JavaScript ist bei Ihnen deaktiviert, wird aber benötigt, um den virtuellen Rundgang anzuzeigen.</p>
+        <p>JavaScript ist bei Ihnen deaktiviert, wird aber benötigt, um den virtuellen Rundgang anzuzeigen.</p>
     </noscript>
 </div>
 
