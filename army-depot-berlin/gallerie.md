@@ -6,21 +6,4 @@ title: Army Depot Berlin - Gallerie
 
 ## Virtueller Rundgang
 
-<div id="google-maps-iframe" style="position: relative; padding-bottom: 75%; height: 0; overflow: hidden; display: none;">
-    <iframe src="https://www.google.com/maps/embed?pb=!4v1748090185588!6m8!1m7!1sCAoSLEFGMVFpcE9Vd2xYS1gxaVJQZlUwZVBzVkxlcGdscEp6VXZ3UE85VVVjdHRl!2m2!1d52.51721429692529!2d13.30472173529484!3f0!4f0!5f0.5970117501821992" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</div>
-
-<div id="gdpr-notice" class="gdpr-rundgang">
-    <p>Wir verwenden Google Maps, um Ihnen einen virtuellen Rundgang anzubieten. Durch Klicken auf "Akzeptieren" stimmen Sie der Datenverarbeitung durch Google zu.</p>
-    <button onclick="acceptGDPR()">Akzeptieren</button>
-    <noscript>
-        <p>JavaScript ist bei Ihnen deaktiviert, wird aber benötigt, um den virtuellen Rundgang anzuzeigen.</p>
-    </noscript>
-</div>
-
-<script>
-function acceptGDPR() {
-    document.getElementById('gdpr-notice').style.display = 'none';
-    document.getElementById('google-maps-iframe').style.display = 'block';
-}
-</script>
+{% include google_rundgang.html %}
