@@ -3,7 +3,7 @@ layout: default
 title: Neuigkeiten
 ---
 
-<h2 class="orange-blink">Neuigkeiten!</h2>
+<h1 class="orange-blink">Neuigkeiten!</h1>
 
 ---
 

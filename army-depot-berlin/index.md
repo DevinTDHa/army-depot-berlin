@@ -2,7 +2,7 @@
 layout: start
 title: Army Depot Berlin
 ---
-# Army Depot Berlin - Der am besten sortierte Army Shop Berlins
+# Der am besten sortierte Army Shop Berlins
 
 ## Bekleidung Ausrüstung Outdoor Camping Trekking
 
@@ -33,6 +33,7 @@ Mo.-Mi.: 10:00 - 18:30 Uhr
 Do.-Fr.: 10:00 - 19:00 Uhr  
 Sa.: 10:00 - 16:00 Uhr
 
+<div markdown="1" class="news-box">
 <h2 class="orange-blink">Neuigkeiten!</h2>
 
 ---
@@ -42,3 +43,6 @@ Sa.: 10:00 - 16:00 Uhr
 
 ---
 {% endfor %}
+
+[Zu allen Neuigkeiten](/neuigkeiten)
+</div>
