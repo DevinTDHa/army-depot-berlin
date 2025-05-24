@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Willkommen auf unserer neuen Webseite
+title: Willkommen auf unserer neuen Webseite!
 date: 2025-05-23
 ---
 

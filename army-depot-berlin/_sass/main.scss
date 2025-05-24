@@ -10,7 +10,7 @@ body {
   font-family: 'Times New Roman', Times, serif;
   font-size: 20px;
   font-weight: bold;
-  background-color: #999878;
+  background-color: green;
   color: black;
   display: flex;
   flex-direction: column;
@@ -87,14 +87,14 @@ body {
   padding: 8px;
   background-color: #d3d2c3;
   text-decoration: none;
-  color: #2d2d2d;
+  color: black;
   border: 2px solid #6e6e6e;
-  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); /* Add shadow to buttons */
-  transition: box-shadow 0.2s ease-in-out; /* Smooth transition for hover effect */
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5); /* Add shadow to buttons */
+  // transition: box-shadow 0.2s linear; /* Smooth transition for hover effect */
 }
 
 .sidebar a:hover {
-  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3); /* Stronger shadow on hover */
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.5); /* Stronger shadow on hover */
 }
 
 /* ==========================================================================
@@ -153,6 +153,11 @@ body {
 .highlight {
   color: darkred;
   font-weight: bold;
+}
+
+a {
+  color: black;
+  text-decoration: underline;
 }
 
 /* ==========================================================================
@@ -225,7 +230,6 @@ h2.orange-blink {
   
   .content-wrapper {
     flex: 1;
-    max-width: calc(100% - 250px);
   }
   
   .sidebar {

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/assets/style.css" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
   </head>
   <body>
     <div class="site-container">
@@ -17,16 +17,13 @@
             class="header-logo"
           />
         </header>
-        <div class="main">{{ content }}</div>
-        <footer class="site-footer">
-          <div class="footer-content">
-            <div class="copyright">
-              &copy; {% assign currentYear = 'now' | date: "%Y" %} Army Depot Berlin. Alle Rechte vorbehalten.
-              <a href="/impressum">Impressum</a> | 
-              <a href="/datenschutz">Datenschutzerklärung</a>
-            </div>
-          </div>
-        </footer>
+
+        <div class="main">
+          <a href="/">← Zurück zur Startseite</a>
+          <br />
+          {{ content }}
+        </div>
+        {% include footer.html %}
       </div>
     </div>
   </body>

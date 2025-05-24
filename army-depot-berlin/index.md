@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: start
 title: Army Depot Berlin
 ---
 # Army Depot Berlin - Der am besten sortierte Army Shop Berlins
