@@ -1,0 +1,17 @@
+<div class="news-box">
+<h2 class="orange-blink">Neuigkeiten!</h2>
+
+<p><hr></p>
+
+{% for post in site.posts limit:3 %}
+<h4 style="margin-bottom: 0px;">{{ post.date | date: "%d.%m.%Y" }} - {{ post.title }}</h4>
+
+<a markdown="0" href="{{ post.url }}" style="margin-top: 0px;">Hier lesen</a>
+
+<p><hr></p>
+{% endfor %}
+
+<div markdown=1>
+[Zu allen Neuigkeiten](/neuigkeiten)
+</div>
+</div>

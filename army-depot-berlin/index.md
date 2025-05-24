@@ -31,23 +31,10 @@ Fax: (030) 342 70 33   -->
 
 **Öffnungszeiten:**  
 
-| Wochentag | Öffnungszeiten |
-|---------|----------------|
-| Mo.-Mi. | 10:00 - 18:30 Uhr |
-| Do.-Fr. | 10:00 - 19:00 Uhr |
-| Sa.     | 10:00 - 16:00 Uhr |
+| Wochentag | Öffnungszeiten    |
+| --------- | ----------------- |
+| Mo.-Mi.   | 10:00 - 18:30 Uhr |
+| Do.-Fr.   | 10:00 - 19:00 Uhr |
+| Sa.       | 10:00 - 16:00 Uhr |
 
-
-<div markdown="1" class="news-box">
-<h2 class="orange-blink">Neuigkeiten!</h2>
-
----
-
-{% for post in site.posts limit:3 %}
-#### {{ post.date | date: "%d.%m.%Y" }} - {{ post.title }}  [Hier lesen]({{ post.url }})
-
----
-{% endfor %}
-
-[Zu allen Neuigkeiten](/neuigkeiten)
-</div>
+{% include news_box.html %}
