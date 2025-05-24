@@ -1,6 +1,7 @@
 ---
 layout: start
 title: Army Depot Berlin
+background_image: /assets/images/shop.png
 ---
 # Der am besten sortierte Army Shop Berlins
 
@@ -29,9 +30,13 @@ Tel.: (030) 342 74 51
 Fax: (030) 342 70 33   -->
 
 **Öffnungszeiten:**  
-Mo.-Mi.: 10:00 - 18:30 Uhr  
-Do.-Fr.: 10:00 - 19:00 Uhr  
-Sa.: 10:00 - 16:00 Uhr
+
+| Wochentag | Öffnungszeiten |
+|---------|----------------|
+| Mo.-Mi. | 10:00 - 18:30 Uhr |
+| Do.-Fr. | 10:00 - 19:00 Uhr |
+| Sa.     | 10:00 - 16:00 Uhr |
+
 
 <div markdown="1" class="news-box">
 <h2 class="orange-blink">Neuigkeiten!</h2>

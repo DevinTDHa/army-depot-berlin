@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/assets/css/styles.css" />
+    {% if page.background_image %}
+    <style>
+      :root {
+        --page-background-image: url('{{ page.background_image }}');
+      }
+    </style>
+    {% endif %}
   </head>
   <body>
     <div class="site-container">
