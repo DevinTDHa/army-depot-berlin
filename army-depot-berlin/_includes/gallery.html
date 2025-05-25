@@ -1,0 +1,48 @@
+{% comment %}
+  Gallery include file that creates a responsive image gallery
+  
+  Parameters:
+  - columns: Number of columns to display on large screens (default: 3)
+  - images: Array of image objects with the following properties:
+    - path: Path to the image file
+    - alt: Alt text for the image
+    - title: Optional title for the image
+    - caption: Optional caption for the image
+    - link: Optional URL to link the image to
+  
+  Example usage:
+  {% assign gallery_images = site.data.gallery_images %}
+  {% include gallery.html columns=3 images=gallery_images %}
+
+  Or inline:
+  {% assign my_images = "" | split: "" %}
+  {% assign image1 = "path": "/assets/images/image1.jpg", "alt": "Image 1 description", "title": "Image 1 Title" %}
+  {% assign my_images = my_images | push: image1 %}
+  {% include gallery.html columns=2 images=my_images %}
+{% endcomment %}
+
+<div class="image-gallery {% if include.class %}{{ include.class }}{% endif %}" 
+     data-columns="{{ include.columns | default: 2 }}">
+  
+  {% for image in include.images %}
+    <div class="gallery-item">
+      <!-- {% if image.link %}
+        <a href="{{ image.link }}" {% if image.link contains 'http' %}target="_blank" rel="noopener noreferrer"{% endif %}>
+      {% endif %} -->
+      
+      <img src="{{ image.path | relative_url }}" 
+           alt="{{ image.alt | escape }}" 
+           {% if image.title %}title="{{ image.title | escape }}"{% endif %} 
+           loading="lazy"
+           class="gallery-image">
+      
+      <!-- {% if image.link %}</a>{% endif %} -->
+      
+      {% if image.caption %}
+        <div class="gallery-caption">
+          {{ image.caption }}
+        </div>
+      {% endif %}
+    </div>
+  {% endfor %}
+</div>
