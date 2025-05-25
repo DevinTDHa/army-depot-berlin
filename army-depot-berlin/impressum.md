@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Army Depot Berlin - Impressum
+title: Impressum
 ---
 # Impressum
 
