@@ -17,6 +17,9 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 
 /* ==========================================================================
@@ -248,10 +251,15 @@ a {
 /* ==========================================================================
   HEADER OVERFLOW PREVENTION
   ========================================================================== */
-h1, h2, h3, h4, h5, h6 {
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-  hyphens: auto;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  // word-wrap: break-word;
+  // overflow-wrap: break-word;
+  // hyphens: auto;
   max-width: 100%;
   box-sizing: border-box;
 }
@@ -322,8 +330,8 @@ table,
 th,
 td {
   border: 1px solid;
-  padding: 5px;
-  margin: 10px;
+  padding: 3px;
+  margin-bottom: 10px;
 }
 
 /* ==========================================================================
@@ -376,6 +384,14 @@ td {
 
   .sidebar-menu {
     display: none;
+  }
+
+  table,
+  th,
+  td {
+    border: 1px solid;
+    padding: 5px;
+    margin: 10px;
   }
 }
 
