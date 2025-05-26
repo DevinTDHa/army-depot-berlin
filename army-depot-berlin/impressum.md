@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Impressum
+background_image: /assets/images/vorne_flaggen.webp
 ---
 # Impressum
 

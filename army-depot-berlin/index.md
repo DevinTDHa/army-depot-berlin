@@ -1,7 +1,6 @@
 ---
 layout: start
 title: Army Depot Berlin
-background_image: /assets/images/shop.png
 ---
 # Der am besten sortierte Army Shop Berlins
 

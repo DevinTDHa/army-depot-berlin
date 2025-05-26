@@ -5,3 +5,6 @@
 # TODO
 title_prefix: "Army Depot Berlin - "
 title_postfix: " - Bekleidung Ausrüstung Outdoor Camping Trekking Militär"
+
+# Default background image
+default_background_image: "/assets/images/background.webp"

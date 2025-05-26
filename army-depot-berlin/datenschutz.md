@@ -4,12 +4,49 @@ title: Datenschutzerklärung
 ---
 # Datenschutzerklärung
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vestibulum volutpat auctor. Curabitur pulvinar leo et dapibus pellentesque. Donec vulputate luctus ligula, eget fringilla augue tempus quis. Suspendisse pellentesque vestibulum molestie. Integer id lacinia tortor, in congue nunc. Suspendisse ac diam accumsan, suscipit nulla sed, eleifend ligula. Nullam scelerisque euismod nibh a consequat. Ut scelerisque ipsum eu orci consequat dapibus. Vivamus volutpat sapien tortor, sed malesuada nisl sollicitudin vel.
+## 1. Verantwortlicher
 
-Donec consequat justo non urna efficitur ultrices. Maecenas id erat blandit, cursus justo vitae, tincidunt nulla. Curabitur rhoncus massa massa, quis tincidunt quam interdum eget. Fusce condimentum sed arcu a semper. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus porttitor sagittis odio, vel ultricies elit congue sed. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+- Army Depot Berlin
+- Trung Duc Ha
+- Wilmersdorfer Str. 164
+- 10585 Berlin, Deutschland
 
-In ex enim, malesuada nec vehicula at, sagittis a elit. Duis sit amet mollis felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam vitae dolor lectus. Duis non turpis in elit elementum varius sit amet molestie lacus. Mauris facilisis ipsum at magna iaculis scelerisque. Praesent nibh sem, suscipit eget malesuada ut, tempus sit amet nisi. Suspendisse vitae molestie lorem, lacinia dictum quam. Integer eget feugiat nunc. Vestibulum sagittis aliquam lorem, at egestas ante dapibus posuere. Nulla eu aliquam metus, vel dignissim sapien. Morbi eget mauris id massa cursus elementum semper at magna. Pellentesque finibus lacinia consequat. Duis varius orci eget tincidunt congue. Mauris risus justo, varius in maximus vel, porta quis risus.
+## 2. Allgemeines zur Datenverarbeitung
 
-Proin quis dolor vel nibh egestas semper eget sit amet erat. Nullam accumsan condimentum scelerisque. Nunc arcu diam, pretium in justo ac, eleifend tempor nibh. In eget massa blandit, rhoncus magna sed, tincidunt urna. Fusce lacinia, elit nec efficitur hendrerit, leo nisi fringilla dolor, eget bibendum sem nisl at dui. Nulla efficitur consectetur auctor. Nulla placerat ullamcorper lacus sed aliquam. Nam ac massa lacinia, cursus turpis vel, malesuada urna. Nulla id massa eu nibh mattis ultricies quis sit amet ligula. Nullam eu gravida velit, vel condimentum purus. Donec nec eleifend turpis. Nulla laoreet purus sed sem euismod, ut auctor purus pharetra. Aliquam rhoncus ante mi, id volutpat enim ultrices quis. Vestibulum in turpis consectetur felis porta fermentum. Vestibulum ultricies quam eu magna dapibus, ac tempus orci ultrices.
+Unsere Website speichert selbst keine personenbezogenen Daten. Es werden keine Cookies gesetzt und keine Tracking-Tools verwendet.
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec pulvinar ligula non iaculis fermentum. Donec id semper orci. Fusce commodo nisl quis erat porttitor faucibus. Donec sed sagittis risus, eget tincidunt eros. In eget venenatis dolor. Ut id vulputate ipsum. Vestibulum vulputate nisi justo, a consequat est volutpat a. Duis consequat nisi id vulputate condimentum. Nunc eget nulla vel tortor condimentum dapibus. Nam quis sem quis ipsum pharetra porta ut et nibh. Etiam at ex erat. Nulla in hendrerit nunc. 
+## 3. Einbindung von Google Maps Street View
+
+Wir nutzen auf unserer Website den Kartendienst Google Maps, insbesondere die Funktion Street View, zur visuellen Darstellung von Standorten. Anbieter ist die Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland.
+
+Durch die Einbindung von Google Maps können personenbezogene Daten, insbesondere Ihre IP-Adresse, an Google übertragen und auf Servern in den USA gespeichert werden. Google kann diese Daten mit anderen Daten verknüpfen und für eigene Zwecke nutzen.
+
+Die Nutzung von Google Maps erfolgt auf Grundlage Ihrer Einwilligung gemäß Art. 6 Abs. 1 lit. a DSGVO. Vor der Anzeige der Karte wird Ihre ausdrückliche Zustimmung eingeholt.
+
+Weitere Informationen zum Umgang mit Nutzerdaten finden Sie in der Datenschutzerklärung von Google: [https://policies.google.com/privacy](https://policies.google.com/privacy)
+
+## 4. Einbindung von OpenStreetMap über Leaflet
+
+Wir binden Kartenmaterial von OpenStreetMap über die JavaScript-Bibliothek Leaflet ein. OpenStreetMap ist ein Projekt der OpenStreetMap Foundation, 132 Maney Hill Road, Sutton Coldfield, West Midlands, B72 1JU, Vereinigtes Königreich.
+
+Beim Laden der Karten werden Anfragen an Server von OpenStreetMap gestellt, wodurch Ihre IP-Adresse übertragen werden kann. Es werden jedoch keine Cookies gesetzt.
+
+Die Nutzung von OpenStreetMap erfolgt auf Grundlage Ihrer Einwilligung gemäß Art. 6 Abs. 1 lit. a DSGVO. Vor der Anzeige der Karte wird Ihre ausdrückliche Zustimmung eingeholt.
+
+Weitere Informationen zum Datenschutz bei OpenStreetMap finden Sie unter: [https://wiki.osmfoundation.org/wiki/Privacy\_Policy](https://wiki.osmfoundation.org/wiki/Privacy_Policy)
+
+## 5. Rechte der betroffenen Personen
+
+Sie haben das Recht:
+
+* gemäß Art. 15 DSGVO Auskunft über Ihre von uns verarbeiteten personenbezogenen Daten zu verlangen;
+* gemäß Art. 16 DSGVO unverzüglich die Berichtigung unrichtiger oder Vervollständigung Ihrer bei uns gespeicherten personenbezogenen Daten zu verlangen;
+* gemäß Art. 17 DSGVO die Löschung Ihrer bei uns gespeicherten personenbezogenen Daten zu verlangen;
+* gemäß Art. 18 DSGVO die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen;
+* gemäß Art. 20 DSGVO Ihre personenbezogenen Daten, die Sie uns bereitgestellt haben, in einem strukturierten, gängigen und maschinenlesebaren Format zu erhalten oder die Übermittlung an einen anderen Verantwortlichen zu verlangen;
+* gemäß Art. 7 Abs. 3 DSGVO Ihre einmal erteilte Einwilligung jederzeit gegenüber uns zu widerrufen;
+* gemäß Art. 77 DSGVO sich bei einer Aufsichtsbehörde zu beschweren.
+
+## 6. Widerspruchsrecht
+
+Sofern Ihre personenbezogenen Daten auf Grundlage von berechtigten Interessen gemäß Art. 6 Abs. 1 lit. f DSGVO verarbeitet werden, haben Sie das Recht, gemäß Art. 21 DSGVO Widerspruch gegen die Verarbeitung Ihrer personenbezogenen Daten einzulegen.

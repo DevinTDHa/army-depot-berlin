@@ -49,12 +49,61 @@ body {
   max-width: 100%;
   box-sizing: border-box;
   border: 3px groove $border_color;
-  // Background based on page.background_image if defined, otherwise use default
-  background: linear-gradient(to right, $content_bg, rgba($content_bg, 0.6)),
-    var(--page-background-image, url(/assets/images/shop.png));
-  background-repeat: no-repeat;
-  background-position: top right;
-  background-size: 100%;
+  position: relative;
+}
+
+.main > *:not(.background-image-container) {
+  position: relative;
+  z-index: 1;
+}
+
+/* Background image container */
+.background-image-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.background-image-container img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: top right;
+}
+
+// Faded background effect. Transparent on the left and bottom
+.faded-bg {
+  width: 100%;
+  height: auto;
+  opacity: 0.4; /* Base opacity */
+
+  /* First gradient: left to right fade - transparent on left, opaque from 60% onwards */
+  /* Second gradient: bottom to top fade - transparent on bottom, opaque from 60% onwards */
+  /* Standard browsers (Firefox) - uses mask-image */
+  /* First gradient: left to right fade - transparent on left, opaque from 90% onwards */
+  /* Second gradient: bottom to top fade - transparent on bottom, opaque from 90% onwards */
+  mask-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.9) 90%),
+    linear-gradient(to top, transparent, rgba(0, 0, 0, 0.9) 90%);
+  mask-composite: intersect;
+
+  /* webkit browsers (Safari, Chrome) - uses -webkit-mask-image */
+  -webkit-mask-image: linear-gradient(
+      to right,
+      transparent,
+      rgba(0, 0, 0, 0.9) 90%
+    ),
+    linear-gradient(to top, transparent, rgba(0, 0, 0, 0.9) 90%);
+  -webkit-mask-composite: destination-in;
+  /* Ensures both masks combine (Firefox/WebKit differences) */
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
 }
 
 // Custom background image style applied through inline style
@@ -194,6 +243,17 @@ details {
 a {
   color: $text_color;
   text-decoration: underline;
+}
+
+/* ==========================================================================
+  HEADER OVERFLOW PREVENTION
+  ========================================================================== */
+h1, h2, h3, h4, h5, h6 {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 /* ==========================================================================

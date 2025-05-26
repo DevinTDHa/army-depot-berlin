@@ -5,13 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{ page.title }}{{ site.title_postfix }}</title>
     <link rel="stylesheet" href="/assets/css/styles.css" />
-    {% if page.background_image %}
-    <style>
-      :root {
-        --page-background-image: url("{{ page.background_image }}");
-      }
-    </style>
-    {% endif %}
+    <!-- Favicon -->
+    {% include favicon.html %}
   </head>
   <body>
     <div class="site-container">
@@ -19,12 +14,15 @@
       <div class="content-wrapper">
         <header class="site-header">
           <img
-            src="/assets/images/logo_klein.jpg"
+            src="/assets/images/logo_header.webp"
             alt="Army Depot Logo"
             class="header-logo"
           />
         </header>
-        <div class="main">{{ content }}</div>
+        <div class="main">
+          {% include faded_background.html %}
+          {{ content }}
+        </div>
         {% include footer.html %}
       </div>
     </div>
