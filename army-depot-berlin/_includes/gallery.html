@@ -9,6 +9,7 @@
     - title: Optional title for the image
     - caption: Optional caption for the image
     - link: Optional URL to link the image to
+    - max_width: Optional maximum width for the gallery item (e.g., "100px", "50%")
   
   Example usage:
   {% assign gallery_images = site.data.gallery_images %}
@@ -16,7 +17,7 @@
 
   Or inline:
   {% assign my_images = "" | split: "" %}
-  {% assign image1 = "path": "/assets/images/image1.jpg", "alt": "Image 1 description", "title": "Image 1 Title" %}
+  {% assign image1 = "path": "/assets/images/image1.jpg", "alt": "Image 1 description", "title": "Image 1 Title", "max_width": "100px" %}
   {% assign my_images = my_images | push: image1 %}
   {% include gallery.html columns=2 images=my_images %}
 {% endcomment %}
@@ -25,7 +26,7 @@
      data-columns="{{ include.columns | default: 2 }}">
   
   {% for image in include.images %}
-    <div class="gallery-item">
+    <div class="gallery-item"{% if image.max_width %} style="max-width: {{ image.max_width }};"{% endif %}>
       
       <img src="{{ image.path | relative_url }}" 
            alt="{{ image.alt | escape }}" 

@@ -1,0 +1,62 @@
+# Sample gallery images data
+# This file can be used as a template for creating image galleries
+
+# You can add more images following the same format
+# - path: /path/to/your/image.jpg
+#   alt: Alternative text for accessibility Logo
+#   title: Image title (optional)
+#   caption: Image caption (optional)
+#   link: https://example.com (optional, disabled)
+
+- path: /assets/images/katalog/abloechl.webp
+  alt: A. Blöchl Logo
+  caption: A. Blöchl Großhandel
+  link: https://www.bloechl-shop.de/
+- path: /assets/images/katalog/alpha_industries.webp
+  alt: Alpha Industries Logo
+  caption: Alpha Industries
+  link: https://www.alphaindustries.com
+- path: /assets/images/katalog/brandit.svg
+  alt: Brandit Logo
+  caption: Brandit - Urban Outdoor Wear
+  link: https://brandit-wear.com/Informationen/Brandit/
+- path: /assets/images/katalog/herbertz.svg
+  alt: Herbertz Logo
+  caption: Herbertz - Messer
+  link: https://www.cjh.shop/
+- path: /assets/images/katalog/leo-koehler.webp
+  alt: Leo Köhler Logo
+  caption: Leo Köhler
+  link: https://www.leo-kohler.com
+- path: /assets/images/katalog/mtac.webp
+  alt: M-Tac
+  caption: M-TAC
+  link: https://m-tac.pl/de/
+- path: /assets/images/katalog/mfh.webp
+  alt: MFH Logo
+  caption: MFH - Max Fuchs
+  link: https://www.max-fuchs.de/
+- path: /assets/images/katalog/mmb.webp
+  alt: MMB Logo
+  caption: MMB - Michael Männlein Import-Export
+  link: https://www.maennlein.de/en/
+- path: /assets/images/katalog/miltec.webp
+  alt: Miltec Logo
+  caption: Miltec by STURM
+  link: https://www.miltec.de/de/
+- path: /assets/images/katalog/opinel.webp
+  alt: Opinel Logo
+  caption: Opinel
+  link: https://www.opinel.com/de
+- path: /assets/images/katalog/surplus.webp
+  alt: Surplus Logo
+  caption: Surplus Raw Vintage
+  link: https://www.surplus.de/bekleidung/
+- path: /assets/images/katalog/vanos.webp
+  alt: VAN OS Logo
+  caption: VAN OS IMPORTS B.V.
+  link: https://www.vanosimports.com/
+- path: /assets/images/katalog/vintage.webp
+  alt: Vintage Logo
+  caption: Vintage Industries
+  link: https://www.vintageindustries.nl/de

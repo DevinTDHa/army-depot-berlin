@@ -11,3 +11,5 @@ Sie können uns folgendermaßen erreichen:
 | Telefon | (030) 342 74 51 |
 
 Schauen Sie auch auf Instagram und TikTok vorbei um die neusten Aktionen und Nachrichten zu erfahren!
+
+{% include gallery.html columns=2 images=site.data.social_media %}

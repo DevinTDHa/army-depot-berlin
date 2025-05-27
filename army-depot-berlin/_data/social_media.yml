@@ -1,0 +1,22 @@
+# Sample gallery images data
+# This file can be used as a template for creating image galleries
+
+# You can add more images following the same format
+# - path: /path/to/your/image.jpg
+#   alt: Alternative text for accessibility
+#   title: Image title (optional)
+#   caption: Image caption (optional)
+#   link: https://example.com (optional, disabled)
+#   max_width: Maximum width for the gallery item (optional, e.g., "100px", "50%")
+
+- path: /assets/images/social_media/instagram.svg
+  alt: Instagram Logo
+  title: Army Depot Berlin auf Instagram
+  caption: Army Depot Berlin auf Instagram
+  link: https://www.instagram.com/army.depot.berlin/
+  max_width: 200px
+- path: /assets/images/social_media/tiktok.svg
+  alt: TikTok Logo
+  title: Army Depot Berlin auf TikTok
+  caption: Army Depot Berlin auf TikTok
+  max_width: 200px
