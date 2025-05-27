@@ -6,7 +6,7 @@
 {% for post in site.posts limit:3 %}
 <h4 style="margin-bottom: 0px;">{{ post.date | date: "%d.%m.%Y" }} - {{ post.title }}</h4>
 
-<a markdown="0" href="{{ post.url }}" style="margin-top: 0px;">Hier lesen</a>
+<a markdown="0" href="{{ post.url | relative_url }}" style="margin-top: 0px;">Hier lesen</a>
 
 <p><hr></p>
 {% endfor %}

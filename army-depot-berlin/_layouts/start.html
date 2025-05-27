@@ -4,9 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{ page.title }}{{ site.title_postfix }}</title>
-    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}" />
     <!-- Favicon -->
     {% include favicon.html %}
+    <!-- SEO -->
+    {% seo %}
   </head>
   <body>
     <div class="site-container">
@@ -14,14 +16,13 @@
       <div class="content-wrapper">
         <header class="site-header">
           <img
-            src="/assets/images/logo_header.webp"
+            src="{{ '/assets/images/logo_header.webp' | relative_url }}"
             alt="Army Depot Logo"
             class="header-logo"
           />
         </header>
         <div class="main">
-          {% include faded_background.html %}
-          {{ content }}
+          {% include faded_background.html %} {{ content }}
         </div>
         {% include footer.html %}
       </div>

@@ -1,6 +1,10 @@
 ---
 ---
 
-@use "colors";
-@use "main";
-@use "gallery";
+// URL variables
+$bg-svg-url: "{{ site.sidebar_image | relative_url }}";
+
+
+@import "colors";
+@import "main";
+@import "gallery";

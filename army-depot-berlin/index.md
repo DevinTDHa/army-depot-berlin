@@ -1,6 +1,9 @@
 ---
 layout: start
 title: Army Depot Berlin
+description: Army Depot Berlin - Bekleidung Ausrüstung Outdoor Camping Trekking Militär
+image: /assets/images/logo.png
+date: 2025-05-27
 ---
 # Der am besten sortierte Army Shop Berlins
 

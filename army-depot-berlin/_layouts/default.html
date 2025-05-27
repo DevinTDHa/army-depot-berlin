@@ -4,9 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     {% include site_title.html %}
-    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}" />
     <!-- Favicon -->
     {% include favicon.html %}
+    <!-- SEO -->
+    {% seo %}
   </head>
   <body>
     <div class="site-container">
@@ -14,7 +16,7 @@
       <div class="content-wrapper">
         <header class="site-header">
           <img
-            src="/assets/images/logo_header.webp"
+            src="{{ '/assets/images/logo_header.webp' | relative_url }}"
             alt="Army Depot Logo"
             class="header-logo"
           />
@@ -22,7 +24,7 @@
 
         <div class="main">
           {% include faded_background.html %}
-          <a href="/">← Zurück zur Startseite</a>
+          <a href="{{ '/' | relative_url }}">← Zurück zur Startseite</a>
           <br />
           {{ content }}
         </div>

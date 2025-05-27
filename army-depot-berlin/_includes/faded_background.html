@@ -1,6 +1,6 @@
 <div class="background-image-container">
   <img
-    src="{% if page.background_image %}{{ page.background_image }}{% else %}{{ site.default_background_image }}{% endif %}"
+    src="{% if page.background_image %}{{ page.background_image | relative_url }}{% else %}{{ site.default_background_image | relative_url }}{% endif %}"
     alt=""
     class="faded-bg-img"
   />
