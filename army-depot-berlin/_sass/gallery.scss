@@ -21,6 +21,10 @@ See https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Bas
   //   transition: transform 0.3s ease;
   position: relative; // For absolute positioning of caption
   overflow: hidden; // Crop any overflow (e.g., scaled images)
+  display: flex; // Make gallery item a flex container
+  justify-content: center; // Center the image horizontally
+  align-items: center; // Center the image vertically
+  max-width: 300px;
 }
 
 .gallery-image {
@@ -43,6 +47,7 @@ See https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Bas
   left: 0;
   right: 0;
   opacity: 0;
+  text-decoration: underline;
   //   transition: opacity 0.3s ease;
 }
 

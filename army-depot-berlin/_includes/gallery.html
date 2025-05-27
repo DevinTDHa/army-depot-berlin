@@ -26,9 +26,6 @@
   
   {% for image in include.images %}
     <div class="gallery-item">
-      {% if image.link %}
-        <a href="{{ image.link }}" {% if image.link contains 'http' %}target="_blank" rel="noopener noreferrer"{% endif %}>
-      {% endif %}
       
       <img src="{{ image.path | relative_url }}" 
            alt="{{ image.alt | escape }}" 
@@ -36,12 +33,16 @@
            loading="lazy"
            class="gallery-image">
       
-      {% if image.link %}</a>{% endif %}
       
       {% if image.caption %}
+      {% if image.link %}
+        <!-- <a href="{{ image.link }}" {% if image.link contains 'http' %}target="_blank" rel="noopener noreferrer"{% endif %}> -->
+        <a href="{{ image.link }}">
+      {% endif %}
         <div class="gallery-caption">
           {{ image.caption }}
         </div>
+      {% if image.link %}</a>{% endif %}
       {% endif %}
     </div>
   {% endfor %}
