@@ -9,11 +9,16 @@ description: "Army Depot Berlin - Bekleidung Ausrüstung Outdoor Camping Trekkin
 tagline: "Army Depot Berlin - Bekleidung Ausrüstung Outdoor Camping Trekking Militär"
 title_prefix: "Army Depot Berlin - "
 title_postfix: " - Bekleidung Ausrüstung Outdoor Camping Trekking Militär"
-logo: "/assets/images/logo.png"
+logo: "/assets/images/logo.svg"
 locale: "de_DE"
 author:
   name: "Army Depot Berlin"
   email: "army.depot.berlin@gmail.com"
+image:
+  path: /assets/images/logo.svg
+  height: 100
+  width: 100
+  alt: Army Depot Logo
 
 # GitHub Pages
 domain: "devintdha.github.io"
@@ -26,8 +31,12 @@ sass:
 
 # Default background image
 default_background_image: "/assets/images/background.webp"
-sidebar_image: "/assets/images/bg.svg"
+sidebar_image: "/assets/images/camo_woodland.svg"
 
 
 # Permalink structure for posts
 permalink: /neuigkeiten/:year-:month-:day-:title/
+
+# Make last slash optional
+permalink_style: pretty
+
