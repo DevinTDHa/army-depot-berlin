@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Neue Öffnungszeiten ab Juni 2025
+title: Neue Öffnungszeiten ab September 2025
 date: 2025-05-24
 ---
 
-Wir ändern unsere Öffnungszeiten ab Juni 2025. Folgende Änderungen werden in Kraft treten:
+Wir ändern unsere Öffnungszeiten ab September 2025. Folgende Änderungen werden in Kraft treten:
 
 Alt:
 
@@ -17,8 +17,8 @@ Alt:
 
 Neu:
 
-| Wochentag | Öffnungszeiten    |
-| --------- | ----------------- |
-| Mo        | Geschlossen       |
-| Di.-Sa.   | 11:00 - 19:00 Uhr |
-| So.       | Geschlossen       |
+| Wochentag | Öffnungszeiten        |
+| --------- | --------------------- |
+| Mo        | **Ruhetag**           |
+| Di.-Sa.   | **11:00 - 19:00 Uhr** |
+| So.       | Geschlossen           |
