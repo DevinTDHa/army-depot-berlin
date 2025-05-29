@@ -2,6 +2,7 @@
 layout: post
 title: Neue Öffnungszeiten ab September 2025
 date: 2025-05-24
+categories: [neuigkeiten]
 ---
 
 Wir ändern unsere Öffnungszeiten ab September 2025. Folgende Änderungen werden in Kraft treten:

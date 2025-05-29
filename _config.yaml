@@ -56,7 +56,4 @@ default_background_image: "/assets/images/vorne_flaggen.webp"
 sidebar_image: "/assets/images/camo_woodland.svg"
 
 # Permalink structure for posts
-permalink: /neuigkeiten/:year-:month-:day-:title/
-
-# Make last slash optional
-permalink_style: pretty
+permalink: pretty
