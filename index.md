@@ -28,7 +28,7 @@ Inhaber:
 Thi Lien Trang  
 Wilmersdorfer Strasse 164  
 10585 Berlin Charlottenburg  
-[army.depot.berlin@gmail.com](mailto:army.depot.berlin@gmail.com)  
+[kontakt@armydepotberlin.de](mailto:kontakt@armydepotberlin.de)
 Tel.: (030) 342 74 51  
 Fax: (030) 342 70 33   -->
 

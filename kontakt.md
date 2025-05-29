@@ -6,7 +6,7 @@ title: Kontakt
 
 Sie können uns folgendermaßen erreichen:
 
-| E-Mail | [army.depot.berlin@gmail.com](mailto:army.depot.berlin@gmail.com) |
+| E-Mail | [kontakt@armydepotberlin.de](mailto:kontakt@armydepotberlin.de) |
 | Adresse | Army Depot Berlin<br>Wilmersdorfer Strasse 164<br>10585 Berlin Charlottenburg |
 | Telefon | (030) 342 74 51 |
 

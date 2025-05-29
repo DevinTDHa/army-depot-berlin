@@ -64,7 +64,7 @@ Wilmersdorfer Str. 164<br />
 10585 Berlin<br />
 Deutschland</p>
 <p>Telefon: (030) 342 74 51<br />
-E-Mail: army.depot.berlin@gmail.com </p>
+E-Mail: kontakt@armydepotberlin.de </p>
  <p>Verantwortliche Stelle ist die nat&uuml;rliche oder juristische Person, die allein oder gemeinsam mit anderen
 &uuml;ber die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z.&nbsp;B. Namen, E-Mail-
 Adressen o. &Auml;.) entscheidet.</p>

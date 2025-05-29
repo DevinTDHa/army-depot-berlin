@@ -29,4 +29,4 @@ Geschäftsführer: Thi Lien Trang
 
 Inhaltlich Verantwortlicher gemäß § 10 Absatz3 MDStV: Thi Lien Trang 
 
-E-Mail: army.depot.berlin@gmail.com
+E-Mail: kontakt@armydepotberlin.de
