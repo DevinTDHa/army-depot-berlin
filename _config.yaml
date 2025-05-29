@@ -3,6 +3,26 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
+# Exclude files and directories from Jekyll build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - run_docker.sh
+  - start_in_docker.sh
+  - image_editing/
+  - "*.sh"
+  - node_modules/
+  - vendor/
+  - .bundle/
+  - .sass-cache/
+  - .jekyll-cache/
+  - .jekyll-metadata
+  - .git/
+  - .gitignore
+  - "*.tmp"
+  - "*.bak"
+
 # Metadata
 title: "Army Depot Berlin"
 description: "Army Depot Berlin - Bekleidung Ausrüstung Outdoor Camping Trekking Militär"
