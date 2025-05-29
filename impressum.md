@@ -15,18 +15,18 @@ Wilmersdorfer Strasse 164
 
 Charlottenburg (am U-Bhf. Richard-Wagner- Platz) 
 
-Tel.: (030) 342 74 51 
+Tel.: (030) 342 74 51
 
-Fax: (030) 342 70 33 
+Fax: (030) 342 70 33
 
-Geschäftsform: GmbH 
+Geschäftsform: Einzelhandel
 
-Umsatz-Steuernummer: 13/325/01734 
+Umsatz-Steuernummer: 13/325/01734
 
-Umsatz-ID NUmmer: DE325805749 
+Umsatz-ID NUmmer: DE325805749
 
-Geschäftsführer: Thi Lien Trang 
+Geschäftsführer: Thi Lien Trang
 
-Inhaltlich Verantwortlicher gemäß § 10 Absatz3 MDStV: Thi Lien Trang 
+Inhaltlich Verantwortlicher gemäß § 10 Absatz3 MDStV: Thi Lien Trang
 
 E-Mail: kontakt@armydepotberlin.de

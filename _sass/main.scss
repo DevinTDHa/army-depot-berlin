@@ -250,18 +250,19 @@ strong {
   color: $title_color;
 }
 
-
-
 /* ==========================================================================
-  HEADER OVERFLOW PREVENTION
+  Long text OVERFLOW PREVENTION
   ========================================================================== */
 h1,
 h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+td,
+th {
   word-wrap: break-word;
+  word-break: break-word; /* breaks words if needed */
   overflow-wrap: break-word;
   hyphens: auto;
   max-width: 100%;
