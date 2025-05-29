@@ -40,10 +40,10 @@ image:
   width: 100
   alt: Army Depot Logo
 
-# GitHub Pages
-domain: "devintdha.github.io"
-url: "https://devintdha.github.io"
-baseurl: "/army-depot-berlin"
+# GitHub Pages - custom domain
+domain: "armydepotberlin.de"
+url: "https://armydepotberlin.de"
+baseurl: ""
 
 sass:
   sass_dir: _sass
