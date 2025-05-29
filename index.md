@@ -10,7 +10,9 @@ date: 2025-05-27
 
 Bei uns zählt noch die individuelle persönliche Betreuung, kein anonymer Versandhandel. Anprobieren und auswählen in unserem Ladengeschäft ist unsere Firmenphilosophie.
 
-Alle hier dargestellten Artikel sind nur erhältlich in unserem Fachgeschäft Wilmersdorfer Strasse 164 in 10585 Berlin Charlottenburg.
+Alle hier dargestellten Artikel sind nur erhältlich in unserem Fachgeschäft Wilmersdorfer Strasse 164 in 10585 Berlin Charlottenburg. Schauen Sie sich auch unser Geschäft virtuell in unserer [Gallerie](./gallerie/) an.
+
+Sie können eine Übersicht unseres Kataloges und Lieferanten unter [Katalog](./katalog/) einsehen. Kontaktieren Sie uns gerne bei Bestellwünschen.
 
 **Wir freuen uns auf ihren Besuch!**
 
