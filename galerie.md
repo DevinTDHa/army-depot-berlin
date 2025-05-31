@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Gallerie
+title: galerie
 ---
-# Gallerie
+# Galerie
 
 Hier finden sie Eindrücke in unser Fachgeschäft.
 
@@ -12,7 +12,7 @@ Hier finden sie Eindrücke in unser Fachgeschäft.
 
 ## Bilder aus unserem Fachgeschäft
 
-Hier entsteht in Kürze eine Gallerie!
+Hier entsteht in Kürze eine Galerie!
 
-<!-- {% assign gallery_images = site.data.gallerie %}
+<!-- {% assign gallery_images = site.data.Galerie %}
 {% include gallery.html columns=3 images=gallery_images %} -->

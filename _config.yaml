@@ -25,10 +25,10 @@ exclude:
 
 # Metadata
 title: "Army Depot Berlin"
-description: "Army Depot Berlin - Bekleidung Ausrüstung Outdoor Camping Trekking Militär"
-tagline: "Army Depot Berlin - Bekleidung Ausrüstung Outdoor Camping Trekking Militär"
+description: "Bekleidung Ausrüstung Outdoor Camping Trekking Militaria im besten sortierten Army Shop in Berlin Charlottenburg!"
+tagline: "Bekleidung Ausrüstung Outdoor Camping Trekking Militaria im besten sortierten Army Shop in Berlin Charlottenburg!"
 title_prefix: "Army Depot Berlin - "
-title_postfix: " - Bekleidung Ausrüstung Outdoor Camping Trekking Militär"
+title_postfix: ""
 logo: "/assets/images/logo.svg"
 locale: "de_DE"
 author:

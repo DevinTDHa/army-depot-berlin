@@ -1,18 +1,19 @@
 ---
 layout: start
-title: Army Depot Berlin
-description: Army Depot Berlin - Bekleidung Ausrüstung Outdoor Camping Trekking Militaria
+title: Army Depot Berlin - Bekleidung Ausrüstung Outdoor Militaria
 date: 2025-05-27
 ---
 # Der am besten sortierte Army Shop Berlins
 
 ## Bekleidung Ausrüstung Outdoor Camping Trekking Militaria
 
-Seit 50 Jahren zählt bei uns individuelle persönliche Betreuung, kein anonymer Versandhandel. Anprobieren und auswählen in unserem Ladengeschäft ist unsere Firmenphilosophie.
+Army Depot Berlin - Seit 50 Jahren führen wir den am besten sortierten Army Shop Berlins. Bei uns zählt individuelle persönliche Betreuung, kein anonymer Versandhandel. Anprobieren und auswählen in unserem Ladengeschäft ist unsere Firmenphilosophie.
 
-Alle hier dargestellten Artikel sind erhältlich in unserem Fachgeschäft Wilmersdorfer Strasse 164 in 10585 Berlin Charlottenburg. Schauen Sie sich auch unser Geschäft in unserer [Gallerie](./gallerie/) in einem virtuellen Rundgang an.
+Alle hier dargestellten Artikel sind erhältlich in unserem Fachgeschäft Wilmersdorfer Strasse 164 in 10585 Berlin Charlottenburg. Sie können eine Übersicht unseres Kataloges und Lieferanten unter [Katalog](./katalog/) einsehen. Kontaktieren Sie uns gerne bei Bestellwünschen.
 
-Sie können eine Übersicht unseres Kataloges und Lieferanten unter [Katalog](./katalog/) einsehen. Kontaktieren Sie uns gerne bei Bestellwünschen.
+Auf dieser Webseite werden wir Sie regelmäßig über die neuesten Angebote, Aktionen und Neuigkeiten rund um das Army Depot informieren. Besuchen Sie dafür unsere [Neuigkeiten](./neuigkeiten). Weiter unten auf dieser Seite finden Sie auch eine Übersicht über das Neuste.
+
+Schauen Sie sich auch unser Geschäft in unserer [Galerie](./galerie/) in einem virtuellen Rundgang an.
 
 **Wir freuen uns auf ihren Besuch!**
 

@@ -1,5 +1,5 @@
 # Sample gallery images data
-# This file can be used as a template for creating image galleries
+# This file can be used as a template for creating image Galeries
 
 # You can add more images following the same format
 # - path: /path/to/your/image.jpg
@@ -8,32 +8,32 @@
 #   caption: Image caption (optional)
 #   link: https://example.com (optional, disabled)
 
-- path: /assets/images/gallerie/1.jpg
+- path: /assets/images/Galerie/1.jpg
   alt: Army Depot Berlin Logo
   # title: Army Depot Berlin
   # caption: Das Logo von Army Depot Berlin
 
-- path: /assets/images/gallerie/2.jpg
+- path: /assets/images/Galerie/2.jpg
   alt: Army Depot Berlin Shop
   # title: Unser Shop
   # caption: Blick in unser Geschäft
 
-- path: /assets/images/gallerie/3.jpg
+- path: /assets/images/Galerie/3.jpg
   alt: Army Depot Berlin Shop
   # title: Unser Shop
   # caption: Blick in unser Geschäft
 
-- path: /assets/images/gallerie/4.jpg
+- path: /assets/images/Galerie/4.jpg
   alt: Army Depot Berlin Shop
   # title: Unser Shop
   # caption: Blick in unser Geschäft
 
-- path: /assets/images/gallerie/5.jpg
+- path: /assets/images/Galerie/5.jpg
   alt: Army Depot Berlin Shop
   # title: Unser Shop
   # caption: Blick in unser Geschäft
 
-- path: /assets/images/gallerie/6.jpg
+- path: /assets/images/Galerie/6.jpg
   alt: Army Depot Berlin Shop
   # title: Unser Shop
   # caption: Blick in unser Geschäft
