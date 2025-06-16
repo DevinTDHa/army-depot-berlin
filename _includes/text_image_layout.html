@@ -1,0 +1,80 @@
+<style>
+  .grid-container {
+    display: grid;
+    /* Define two columns. 
+        1fr means 1 fraction of the available space, making them equal width.
+        You can also use fixed widths (e.g., 200px 1fr) or percentages. */
+    grid-template-columns: 1fr 1fr;
+    gap: 10px; /* Adds space between columns */
+    padding: 0px;
+    margin: 0 auto; /* Optional: Center the container */
+    align-items: center; /* Vertically center content */
+  }
+
+  /* For responsiveness: stack columns on smaller screens */
+  @media (max-width: 768px) {
+    .grid-container {
+      grid-template-columns: 1fr; /* On small screens, make it a single column */
+    }
+  }
+
+  /* Basic styling for columns */
+  .text-column {
+    /* padding: 15px; */
+  }
+
+  .image-column {
+    /* padding: 10px; */
+    text-align: center;
+  }
+
+  .image-column img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Responsive order for mobile */
+  @media (max-width: 768px) {
+    .image-column {
+      order: 2; /* Text always comes first on mobile */
+    }
+    .text-column {
+      order: 1;
+    }
+  }
+</style>
+
+{% if include.image_position == 'left' or include.image_position == 'l' %}
+<div class="grid-container">
+  <div class="image-column">
+    {% if include.image %}
+    <img
+      src="{{ include.image | relative_url }}"
+      alt="{{ include.image_alt | default: 'Image' }}"
+    />
+    {% else %}
+    <p>No image provided</p>
+    {% endif %}
+  </div>
+  <div class="text-column">
+    {{ include.text | markdownify | default: "No text provided" }}
+  </div>
+</div>
+{% else %}
+<div class="grid-container">
+  <div class="text-column">
+    {{ include.text | markdownify | default: "No text provided" }}
+  </div>
+  <div class="image-column">
+    {% if include.image %}
+    <img
+      src="{{ include.image | relative_url }}"
+      alt="{{ include.image_alt | default: 'Image' }}"
+    />
+    {% else %}
+    <p>No image provided</p>
+    {% endif %}
+  </div>
+</div>
+{% endif %}

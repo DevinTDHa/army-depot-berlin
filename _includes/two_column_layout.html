@@ -1,0 +1,33 @@
+<style>
+  .grid-container {
+    display: grid;
+    /* Define two columns. 
+        1fr means 1 fraction of the available space, making them equal width.
+        You can also use fixed widths (e.g., 200px 1fr) or percentages. */
+    grid-template-columns: 1fr 1fr;
+    gap: 10; /* Adds space between columns */
+    padding: 0px;
+    margin: 0 auto; /* Optional: Center the container */
+  }
+
+  /* For responsiveness: stack columns on smaller screens */
+  @media (max-width: 768px) {
+    .grid-container {
+      grid-template-columns: 1fr; /* On small screens, make it a single column */
+    }
+  }
+
+  /* Basic styling for columns */
+  /* .column-left,
+  .column-right {
+    padding: 0px;
+  } */
+</style>
+<div class="grid-container">
+  <div class="column-left">
+    {{ include.left_content | markdownify | default: "TODO" }}
+  </div>
+  <div class="column-right">
+    {{ include.right_content | markdownify | default: "TODO" }}
+  </div>
+</div>
