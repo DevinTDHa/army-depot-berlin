@@ -12,6 +12,4 @@ Hier finden sie Eindrücke in unser Fachgeschäft.
 
 ## Bilder aus unserem Fachgeschäft
 
-Hier entsteht in Kürze eine Galerie!
-
 {% include gallery.html columns=3 images=site.data.galerie %}

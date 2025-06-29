@@ -23,7 +23,7 @@
   {% include gallery.html columns=2 images=my_images %}
 {% endcomment %}
 
-<div class="image-gallery {% if include.class %}{{ include.class }}{% endif %}" 
+<div class="image-gallery news-box {% if include.class %}{{ include.class }}{% endif %}" 
      data-columns="{{ include.columns | default: 2 }}">
   
   {% for image in include.images %}
