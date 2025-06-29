@@ -34,19 +34,10 @@
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   }
 
-  /* Responsive order for mobile */
-  @media (max-width: 768px) {
-    .image-column {
-      order: 2; /* Text always comes first on mobile */
-    }
-    .text-column {
-      order: 1;
-    }
-  }
 </style>
 
 {% if include.image_position == 'left' or include.image_position == 'l' %}
-<div class="grid-container">
+<div class="grid-container image-left">
   <div class="image-column">
     {% if include.image %}
     <img
@@ -62,7 +53,7 @@
   </div>
 </div>
 {% else %}
-<div class="grid-container">
+<div class="grid-container image-right">
   <div class="text-column">
     {{ include.text | markdownify | default: "No text provided" }}
   </div>
