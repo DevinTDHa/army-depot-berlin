@@ -14,5 +14,4 @@ Hier finden sie Eindrücke in unser Fachgeschäft.
 
 Hier entsteht in Kürze eine Galerie!
 
-<!-- {% assign gallery_images = site.data.Galerie %}
-{% include gallery.html columns=3 images=gallery_images %} -->
+{% include gallery.html columns=3 images=site.data.galerie %}

@@ -1,0 +1,33 @@
+# Sample gallery images data
+# This file can be used as a template for creating image Galeries
+
+# You can add more images following the same format
+# - path: /path/to/your/image.jpg
+#   alt: Alternative text for accessibility
+#   title: Image title (optional)
+#   caption: Image caption (optional)
+#   link: https://example.com (optional, disabled)
+- path: /assets/images/gallerie/innen/ad_innen_01.webp
+  alt: Army Depot Berlin Shop Interior
+  open_as_link: true
+  max_width: 400px
+
+- path: /assets/images/gallerie/innen/ad_innen_02.webp
+  alt: Army Depot Berlin Shop Interior
+  open_as_link: true
+  max_width: 400px
+
+- path: /assets/images/gallerie/innen/ad_innen_03.webp
+  alt: Army Depot Berlin Shop Interior
+  open_as_link: true
+  max_width: 400px
+
+- path: /assets/images/gallerie/innen/ad_innen_04.webp
+  alt: Army Depot Berlin Shop Interior
+  open_as_link: true
+  max_width: 400px
+
+- path: /assets/images/gallerie/innen/ad_innen_05.webp
+  alt: Army Depot Berlin Shop Interior
+  open_as_link: true
+  max_width: 400px
