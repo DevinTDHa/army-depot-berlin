@@ -9,6 +9,7 @@ date: 2025-05-27
 
 Bei uns zählt noch die individuelle persönliche Betreuung, kein anonymer Versandhandel. Anprobieren und auswählen in unserem Ladengeschäft ist unsere Firmenphilosophie.
 
+<!-- -------- BILDER  -------- -->
 {% include text_image_layout.html 
     text="Entdecken Sie unsere große Auswahl an hochwertiger Outdoor-Bekleidung, Ausrüstung und Militaria. Ob für Camping, Trekking oder den täglichen Einsatz – bei uns finden Sie alles, was Sie brauchen. Unser erfahrenes Team berät Sie gerne persönlich vor Ort." 
     image="/assets/images/ad_draussen.webp" 
@@ -21,27 +22,17 @@ Alle hier dargestellten Artikel sind erhältlich in unserem Fachgeschäft Wilmer
 
 {% include gallery.html columns=3 images=site.data.start %}
 
-Auf dieser Webseite werden wir Sie regelmäßig über die neuesten Angebote, Aktionen und Neuigkeiten rund um das Army Depot informieren. Besuchen Sie dafür unsere [Neuigkeiten](./neuigkeiten). Weiter unten auf dieser Seite finden Sie auch eine Übersicht über das Neuste.
-
 Schauen Sie sich auch unser Geschäft in unserer [Galerie](./galerie/) in einem virtuellen Rundgang an.
 
+Auf dieser Webseite werden wir Sie regelmäßig über die neuesten Angebote, Aktionen und Neuigkeiten rund um das Army Depot informieren. Besuchen Sie dafür unsere [Neuigkeiten](./neuigkeiten) oder unser Instagram Profil.
+
+<!-- -------- INSTAGRAM  -------- -->
+
+{% include instagram_feed.html %}
+
+<!-- -------- TABELLE  -------- -->
+
 **Wir freuen uns auf ihren Besuch!**
-
-<!-- ### Zu unseren Lieferanten:
-
-![Shop Außenansicht](/assets/images/shop-outside.jpg)
-![Shop Innenansicht](/assets/images/shop-inside.jpg) -->
-
-<!-- ## Kontakt
-
-**Army Depot Berlin**  
-Inhaber:  
-Thi Lien Trang  
-Wilmersdorfer Strasse 164  
-10585 Berlin Charlottenburg  
-[kontakt@armydepotberlin.de](mailto:kontakt@armydepotberlin.de)
-Tel.: (030) 342 74 51  
-Fax: (030) 342 70 33   -->
 
 {% assign opening_hours = "
 **Öffnungszeiten:**  
@@ -65,5 +56,8 @@ Fax: (030) 342 70 33   -->
 {% include two_column_layout.html
     left_content=opening_hours
     right_content=kontakt%}
+
+
+<!-- -------- NEWS  -------- -->
 
 {% include news_box.html %}

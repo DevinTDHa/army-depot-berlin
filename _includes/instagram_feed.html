@@ -1,0 +1,36 @@
+<!-- Elfsight Instagram Feed with GDPR Notice -->
+<div id="gdpr-notice" class="gdpr">
+<p>Instagram Feed</p>
+  <p>
+    Wir verwenden Elfsight, um Ihnen unseren Instagram-Feed anzuzeigen. Durch
+    Klicken auf "Akzeptieren" stimmen Sie der Datenverarbeitung durch Elfsight
+    und Instagram zu.
+  </p>
+  <button onclick="acceptInstagramGDPR()">Akzeptieren</button>
+  <noscript>
+    <p>
+      JavaScript ist bei Ihnen deaktiviert, wird aber benötigt, um den
+      Instagram-Feed anzuzeigen.
+    </p>
+  </noscript>
+</div>
+
+<div id="instagram-widget" style="display: none">
+  <div
+    class="elfsight-app-2de70faa-291f-4ccb-b2a7-cba267b571f5"
+    data-elfsight-app-lazy
+  ></div>
+</div>
+
+<script>
+  function acceptInstagramGDPR() {
+    document.getElementById("gdpr-notice").style.display = "none";
+    document.getElementById("instagram-widget").style.display = "block";
+
+    // Dynamically load the Elfsight script only after consent
+    const elfsightScript = document.createElement("script");
+    elfsightScript.src = "https://static.elfsight.com/platform/platform.js";
+    elfsightScript.async = true;
+    document.head.appendChild(elfsightScript);
+  }
+</script>

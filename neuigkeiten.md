@@ -3,6 +3,12 @@ layout: default
 title: Neuigkeiten
 ---
 
+# Instagram Feed
+
+{% include instagram_feed.html %}
+
+---
+
 <h1 class="orange-blink">Neuigkeiten!</h1>
 
 ---
