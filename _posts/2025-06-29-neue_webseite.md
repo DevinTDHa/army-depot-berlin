@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Willkommen auf unserer neuen Webseite!
-date: 2025-05-23
+date: 2025-06-29
 categories: [neuigkeiten]
 ---
 
